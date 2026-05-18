@@ -27,6 +27,10 @@
 
 @layer components {
     .container1 {
-        @apply px-6 py-10 max-w-7xl mt-12 mx-auto lg:px-8 lg:mt-24;
+        @apply px-6 py-10 max-w-7xl mt-10 mx-auto lg:px-8 lg:mt-24;
+    }
+
+    .anchor-hover {
+        @apply border-b border-dotted border-y-gray-300 hover:border-solid hover:border-gray-500;
     }
 }
